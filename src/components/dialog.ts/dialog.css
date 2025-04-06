@@ -1,0 +1,20 @@
+dialog {
+  background-color: #0ff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px #0ff;
+  color: #000;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.dialog-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.dialog-actions button {
+  box-shadow: 3px 3px 3px 3px #0ff;
+}

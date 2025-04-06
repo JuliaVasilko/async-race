@@ -1,0 +1,45 @@
+.top-block {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 5px;
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.road-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-bottom: 2px solid green;
+  margin-bottom: 10px;
+}
+
+.control-block {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.road-block {
+  width: 100%;
+  position: relative;
+}
+
+.car-icon {
+  display: inline-block;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  transform: rotateY(180deg);
+}
+
+.flag-icon {
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+}

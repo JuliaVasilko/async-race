@@ -1,0 +1,39 @@
+button {
+  background-color: #87ceeb;
+  border-radius: 5px;
+  color: #000;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+button:disabled {
+  opacity: 0.6;
+}
+
+.long-btn {
+  box-shadow: 3px 3px 3px #0ff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 600px;
+}
+
+.delete-btn {
+  box-shadow: 3px 3px 3px #0ff;
+}
+
+.short-btn {
+  box-shadow: 3px 3px 3px #0ff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 60px;
+}
+
+.middle-btn {
+  box-shadow: 3px 3px 3px #0ff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 300px;
+}

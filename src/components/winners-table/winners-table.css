@@ -1,0 +1,26 @@
+table, th, td {
+  border: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+
+  .car-icon {
+    position: static;
+  }
+}
+
+th[data-sort] {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  align-items: center;
+}
+
+th {
+  background-color: #9696e2;
+}
+
+th, td {
+  padding: 5px;
+}

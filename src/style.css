@@ -1,0 +1,25 @@
+body {
+  background-color: #4682b4;
+  color: #f0ffff;
+  display: flex;
+  font-family: Georgia, Times, serif;
+  justify-content: center;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 10px;
+}
+
+.hide {
+  visibility: hidden;
+}
